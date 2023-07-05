@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="clinic.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="Pagina Inicial.html">Página Inicial</a></li><br>
+                <li><a href="sobre.html">Sobre a Clínica</a></li><br>
+                <li><a href="horario.html">Horário de Atendimento</a></li><br>
+                <li><a href="contato.html">Contato</a></li><br>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="clinic-2.jpg" /><br><br>
+                <!-- Aqui vai o seu header -->
+            </div>
+                <form onsubmit="alert('Solicitação Enviada com Sucesso!');">
+                    <h3>Formulário de Cadastro</h3>
+                <fieldset id="field01">
+                    <legend>Dados Pessoais</legend>
+                        <div class="row">
+                            <label>Nome:</label>
+                            <input type="text">
+                             <label>E-mail:</label>
+                            <input type="email">
+                        </div>
+                </fieldset>
+                    
+                    <fieldset id="field02">
+                    <legend>Informações:</legend>    
+                    <div class="row">                               
+                            <label>Assunto:</label>
+                            <input type="text">
+                        </div>
+                    </fieldset>
+                    
+                    <div class="row">
+                      <b>Mensagem:</b><hr>      
+                     <b>Digite aqui:</b><br>
+                     <textarea></textarea>                                                   
+                        </div>
+                   
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar Solicitação</button>
+            </form>
+            </div>
+            <br>
+            <div class="footer">
+                <footer>
+                <strong>© 2023 Health Clinic. Todos os direitos reservados. | Endereço: Rua Principal, 123 - Cidade, Estado, CEP | Telefone: (99) 9 9999-9999 | E-mail: info@healthclinic.com</strong>
+                </footer>
+            </div>
+        </div>
+    
+</body>
+</html>
